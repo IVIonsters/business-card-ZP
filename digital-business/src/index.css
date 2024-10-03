@@ -1,4 +1,4 @@
-/* Base Project Setup */
+/* High contrast black-and-white theme with glassmorphism */
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +6,20 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif; /* Cleaner, modern font */
-  background-color: #1a1a1a; /* Dark gray */
-  color: #e5e5e5; /* Light text color */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #000 0%, #111 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
+h1, h2, p {
+  color: #fff; /* White text for contrast */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Add a slight text shadow */
+}
+
 
 
 

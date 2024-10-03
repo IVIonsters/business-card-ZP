@@ -2,16 +2,18 @@
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  background-color: #333; /* Dark gray footer background */
+  background-color: rgba(255, 255, 255, 0.05); /* Subtle translucency */
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Slight border */
 }
 
 .footer a {
-  color: #e5e5e5; /* Light gray icons */
+  color: #fff;
   font-size: 24px;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .footer a:hover {
-  color: #999999; /* Lighter gray on hover */
+  color: #fff;
+  transform: translateY(-5px); /* Lift icons on hover */
 }
 

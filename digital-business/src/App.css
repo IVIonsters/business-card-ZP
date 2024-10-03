@@ -1,4 +1,4 @@
-/* Make sure the body and html take the full height */
+/* Glassmorphism effect on the card container */
 html, body {
   height: 100%;
   margin: 0;
@@ -6,17 +6,25 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1a1a1a; /* Dark gray background */
+  background-color: #000; /* Black background for high contrast */
 }
 
 .card {
   width: 100%;
-  max-width: 500px; /* Responsive card width */
-  background-color: #333; /* Dark background for card */
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for sleek effect */
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.1); /* Translucent white */
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(15px); /* Frosted glass effect */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.18); /* Border to enhance glass feel */
   display: flex;
-  flex-direction: column; /* Stack components vertically */
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.card:hover {
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
 
