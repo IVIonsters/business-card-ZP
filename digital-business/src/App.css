@@ -11,9 +11,7 @@ html, body {
 
 .card {
   width: 100%;
-  max-width: 400px; /* You can adjust this for responsiveness */
-  height: 90vh; /* 80% of the viewport height */
-  margin: 15vh 0; /* 10% margin at the top and bottom */
+  max-width: 500px; /* You can adjust this for responsiveness */
   background-color: #1A1A2E; /* Dark background */
   color: #E5E5E5; /* Text color */
   border-radius: 10px;
