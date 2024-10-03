@@ -34,10 +34,10 @@ Once the development server is running, you can view the digital business card i
 - Add your own avatar image in the `assets` folder and update the `Info.jsx` component to display it.
 
 ## **Technologies Used**
-- **React**: A JavaScript library for building user interfaces.
-- **CSS**: For styling components and applying glassmorphism effects.
-- **React Icons**: For rendering social media icons.
-- **Vite**: Build tool for fast and modern web development.
+
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![React Icons](https://img.shields.io/badge/React%20Icons-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+- ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 ## **Screenshots**
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
