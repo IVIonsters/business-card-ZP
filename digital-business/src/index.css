@@ -6,8 +6,10 @@
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #181826;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Cleaner, modern font */
+  background-color: #1a1a1a; /* Dark gray */
+  color: #e5e5e5; /* Light text color */
 }
+
 
 

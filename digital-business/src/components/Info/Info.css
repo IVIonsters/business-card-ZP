@@ -8,35 +8,30 @@
   object-fit: cover; 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin-top: 200px;
 }
 
 h1 {
   font-size: 2rem;
-  margin: 5px 0 5px;
-  padding: .1rem;
-  color: #00B4D8;
-
+  margin: 5px 0;
+  color: #ffffff; /* White for name */
 }
 
 h2 {
   font-size: 1.25rem;
-  padding: .1rem;
-  color: #00B4D8; 
+  color: #cccccc; /* Light gray for title */
 }
 
 .btn {
   display: inline-block;
   margin: 10px 5px;
   padding: 10px 20px;
-  background-color: #ADE8F4;
-  color: #4A5568;
+  background-color: #444; /* Dark gray button */
+  color: #e5e5e5; /* Light gray text */
   text-decoration: none;
   border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-@media (max-width: 468px) {
-  .header-image {
-    margin-top: 400px;
-  }
+.btn:hover {
+  background-color: #555; /* Slightly lighter gray on hover */
 }

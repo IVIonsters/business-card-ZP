@@ -6,16 +6,17 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0e0e16; /* Dark background */
+  background-color: #1a1a1a; /* Dark gray background */
 }
 
 .card {
   width: 100%;
-  max-width: 500px; /* You can adjust this for responsiveness */
-  background-color: #131320; /* Dark background */
+  max-width: 500px; /* Responsive card width */
+  background-color: #333; /* Dark background for card */
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for sleek effect */
   display: flex;
   flex-direction: column; /* Stack components vertically */
 }
+

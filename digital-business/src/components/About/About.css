@@ -1,16 +1,17 @@
 .about {
   padding: 20px;
-  color: #E5E5E5;
+  color: #e5e5e5; /* Light gray text */
 }
 
 .about h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #E5E5E5;
+  color: #ffffff; /* White for headers */
 }
 
 .about p {
   font-size: 16px;
   line-height: 1.5;
-    color: #E5E5E5;
+  color: #cccccc; /* Lighter gray for paragraphs */
 }
+
