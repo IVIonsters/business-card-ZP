@@ -6,14 +6,13 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #181826; /* Dark background */
+  background-color: #0e0e16; /* Dark background */
 }
 
 .card {
   width: 100%;
   max-width: 500px; /* You can adjust this for responsiveness */
-  background-color: #1A1A2E; /* Dark background */
-  color: #E5E5E5; /* Text color */
+  background-color: #131320; /* Dark background */
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
