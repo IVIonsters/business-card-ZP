@@ -40,9 +40,11 @@ Once the development server is running, you can view the digital business card i
 - **Vite**: Build tool for fast and modern web development.
 
 ## **Screenshots**
-<img src="./digital-business/src/assets/Screenshot_2024-10-03_145336-removebg-preview.png" alt="Digital Business Card Screenshot" width="300">
-<img src="./digital-business/src/assets/Screenshot_2024-10-03_145414-removebg-preview.png" alt="Digital Business Card Screenshot" width="300">
-<img src="./digital-business/src/assets/screencapture-localhost-5173-2024-10-03-14_52_20.png" alt="Digital Business Card Screenshot" width="300">
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="./digital-business/src/assets/Screenshot_2024-10-03_145336-removebg-preview.png" alt="Digital Business Card Screenshot" width="300">
+    <img src="./digital-business/src/assets/Screenshot_2024-10-03_145414-removebg-preview.png" alt="Digital Business Card Screenshot" width="300">
+    <img src="./digital-business/src/assets/screencapture-localhost-5173-2024-10-03-14_52_20.png" alt="Digital Business Card Screenshot" width="300">
+</div>
 
 ## **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
