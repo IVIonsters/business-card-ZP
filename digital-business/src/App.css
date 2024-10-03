@@ -1,0 +1,9 @@
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #1A1A2E; /* Dark background */
+  color: #E5E5E5; /* Text color */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
