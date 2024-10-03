@@ -1,9 +1,24 @@
+/* Make sure the body and html take the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181826; /* Dark background */
+}
+
 .card {
-  max-width: 400px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 400px; /* You can adjust this for responsiveness */
+  height: 90vh; /* 80% of the viewport height */
+  margin: 15vh 0; /* 10% margin at the top and bottom */
   background-color: #1A1A2E; /* Dark background */
   color: #E5E5E5; /* Text color */
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Stack components vertically */
 }
